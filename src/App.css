@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+p{
+  font: bold 2em Arial, sans-serif;
+    color: darkblue;
+    text-shadow: #386ba7 1px 1px 0, #386ba7 2px 2px 0, 
+                 #386ba7 3px 3px 0, #386ba7 4px 4px 0, 
+                 #386ba7 5px 5px 0;
+    padding-left: 0px;
+    left: 0px;
+}
+button {
+  background: #6292c2;
+  height: 50px;
+	width: 115px;
+  border: 2px solid #eee;
+}
+button:hover {
+  color: #fff;
+  background: #6292c2;
+}
+
+#gtr {
+ background-color: rgb(111, 80, 177);
+ width: 600px;
+ height: 50px;
+ margin-left: 500px;
+}
+
+#tre {
+  width: 30px;
+  height: 30px;
+}
+
+#tre {
+  background-image: url(https://im0-tub-ru.yandex.net/i?id=037e003e38a6b306a3d4c4cae7af242b&n=13);
+}
+
+body {
+  background-image: url(https://im0-tub-ru.yandex.net/i?id=037e003e38a6b306a3d4c4cae7af242b&n=13);
+  background-repeat: no-repeat;
+  background-size: 100%; 
+}
+
+img.rot {
+  animation: 1s linear 0s normal none infinite running rot;
+  -webkit-animation: 1s linear 0s normal none infinite running rot;
+  width: 100px;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
